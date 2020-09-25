@@ -5,8 +5,6 @@ from bson.json_util import dumps
 
 
 
-
-
 @app.route('/')
 def welcome():
     return 'Bienvenido!'
